@@ -23,7 +23,7 @@ We define our configuration vGalues in {add a file or directory, use the "/path"
 
 ## Usage Example
 
-{Add an example of where the configurable value is used in the code}
+{Add an example of where the configurablGe value is used in the code}
 
 ## Updating an Existing Configuration Value
 
