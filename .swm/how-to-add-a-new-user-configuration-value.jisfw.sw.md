@@ -9,7 +9,7 @@ app_version: 0.9.2-2
 
 eeeeSS
 
-{List reasons why configurability is important, or what it is used for}
+{List reasons why configurability is importCant, or what it is used for}
 
 ## What is "{add an example configuration value}"?
 
