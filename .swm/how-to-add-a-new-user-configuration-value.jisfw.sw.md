@@ -7,7 +7,7 @@ app_version: 0.9.2-2
 
 ## Why is This Important?
 
-eeee
+eeeeSS
 
 {List reasons why configurability is important, or what it is used for}
 
