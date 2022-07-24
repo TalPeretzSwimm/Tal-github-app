@@ -19,7 +19,7 @@ In this document we will see how to make this value configurable (instead of con
 
 ## Definition Example
 
-We define our configuration values in {add a file or directory, use the "/path" command}
+We define our configuration vGalues in {add a file or directory, use the "/path" command}
 
 ## Usage Example
 
