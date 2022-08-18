@@ -2,7 +2,9 @@
 id: b4b3s
 name: some test file 2
 file_version: 1.0.2
-app_version: 0.9.4-0
+app_version: 0.9.4-1
+file_blobs:
+  fileWithALotOfContent.js: 0bfd1350a70bd9ae53bb896747a52bd91782f971
 ---
 
 to check save behavior
@@ -11,6 +13,33 @@ staging file
 
 
 
+
+
+<br/>
+
+
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 fileWithALotOfContent.js
+```javascript
+⬜ 5      import { StatusCodes } from 'http-status-codes';
+⬜ 6      import fetch from 'node-fetch';
+⬜ 7      
+🟩 8      import { NOTIFICATION_TYPES } from 'Shared/notifications/consts';
+🟩 9      import { discoverAndGenerateDocs, discoverDocs, generateDocs, sgdOnGeneratedDocSavedHandler } from './generated-docs';
+🟩 10     import { DocumentMetadata, isDocumentId, isDocumentMetadata } from './generated-docs/documents/document';
+🟩 11     import { RepoTarget, isRepoTarget } from './generated-docs/utils/clone';
+🟩 12     import { sendSGMail } from './utils/sendgrid';
+🟩 13     import { logEventCloud } from './eventLogger/logAndReportEvent';
+🟩 14     import * as commonUtils from './utils/common';
+🟩 15     import { firestoreCollectionNames, resourcesErrors } from './utils/consts';
+🟩 16     import { checkIfRepoExistsAndUserInRepo } from './utils/check_helpers';
+🟩 17     import { getLogger } from './utils/cloud-logger';
+🟩 18     import { isProduction, isStage, projectId } from './utils/config';
+⬜ 19     
+⬜ 20     import { githubApp, marketplaceGitHubAppHandler } from './githubApp';
+⬜ 21     import { dailyMailHandler } from './mailer';
+```
 
 <br/>
 
