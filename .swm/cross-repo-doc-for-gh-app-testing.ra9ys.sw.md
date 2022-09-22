@@ -7,7 +7,7 @@ file_blobs:
   testFile.md: 2c829dd94e910f7d48d32c259560c6a957444df8
 cross_repo_file_blobs:
   Z2l0aHViJTNBJTNBY29tbWFuZGVyJTNBJTNBc3dpbW1pbw==:
-    examples/custom-help: 333c07c1f7384802746626d37f9e6d0c4650bdfb
+    examples/custom-help: d5a15a270f6702126aff62bbf12184b93746892d
 ---
 
 This is cross repo doc for GH testing
@@ -51,17 +51,19 @@ this is local snippet
 <!-- NOTE-swimm-repo ::Z2l0aHViJTNBJTNBY29tbWFuZGVyJTNBJTNBc3dpbW1pbw==:: -->
 ### 📄 examples/custom-help
 ```
-⬜ 7        .option('-f, --foo', 'enable some foo');
-⬜ 8      
-⬜ 9      // must be before .parse()
-🟩 10     program.on('--help', () => {
-🟩 11       console.log('');
-🟩 12       console.log('Example call:');
-🟩 13       console.log('  $ custom-help --help');
-🟩 14     });
+⬜ 3      // const program = require('commander'); // (normal include)
+⬜ 4      const program = require('../'); // include commander in git clone of commander repo
+⬜ 5      
+🟩 6      program
+🟩 7        .option('-f, --foo', 'enable some foo');
+🟩 8      
+🟩 9      // must be before .parse()
+🟩 10     program.on('--bad', () => {
+🟩 11       console.log('this is bad');
+🟩 12     });
+⬜ 13     
+⬜ 14     program.parse(process.argv);
 ⬜ 15     
-⬜ 16     program.parse(process.argv);
-⬜ 17     
 ```
 
 <br/>
