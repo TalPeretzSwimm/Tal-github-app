@@ -1,0 +1,30 @@
+{
+    "id": "brns9",
+    "name": "Test-rules",
+    "content": [
+        {
+            "type": "trigger",
+            "trigger": {
+                "type": "path",
+                "eventSymbol": "ed71daf2-92ec-48e3-ba95-0953c521608e"
+            },
+            "action": {
+                "type": "ghcomment",
+                "url": "https://www.google.com/",
+                "text": "google "
+            }
+        }
+    ],
+    "symbols": {
+        "ed71daf2-92ec-48e3-ba95-0953c521608e": {
+            "type": "path",
+            "text": "file2.txt",
+            "path": "file2.txt"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.9.6-1",
+        "file_blobs": {}
+    }
+}
