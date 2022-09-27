@@ -1,0 +1,30 @@
+{
+    "id": "w1x6r",
+    "name": "Test-rules",
+    "content": [
+        {
+            "type": "trigger",
+            "trigger": {
+                "type": "path",
+                "eventSymbol": "f7bd9716-36fb-4f99-adb7-b3410b14591f"
+            },
+            "action": {
+                "type": "ghcomment",
+                "url": "https://www.google.com/",
+                "text": "google "
+            }
+        }
+    ],
+    "symbols": {
+        "f7bd9716-36fb-4f99-adb7-b3410b14591f": {
+            "type": "path",
+            "text": "file2.txt",
+            "path": "file2.txt"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.9.6-1",
+        "file_blobs": {}
+    }
+}
