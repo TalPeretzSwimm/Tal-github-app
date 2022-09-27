@@ -1,0 +1,30 @@
+{
+    "id": "lba47",
+    "name": "Test-rules",
+    "content": [
+        {
+            "type": "trigger",
+            "trigger": {
+                "type": "path",
+                "eventSymbol": "2bf7210e-03d3-4eca-aadf-916477209d50"
+            },
+            "action": {
+                "type": "ghcomment",
+                "url": "https://www.google.com/",
+                "text": "google "
+            }
+        }
+    ],
+    "symbols": {
+        "2bf7210e-03d3-4eca-aadf-916477209d50": {
+            "type": "path",
+            "text": "file2.txt",
+            "path": "file2.txt"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.9.6-1",
+        "file_blobs": {}
+    }
+}
