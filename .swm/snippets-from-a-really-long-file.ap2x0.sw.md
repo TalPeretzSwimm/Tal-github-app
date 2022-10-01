@@ -5,6 +5,9 @@ file_version: 1.0.2
 app_version: 0.8.7-1
 file_blobs:
   fileWithALotOfContent.js: 0bfd1350a70bd9ae53bb896747a52bd91782f971
+cross_repo_file_blobs:
+  veezvxCuzpPrRLLXWD2E: 
+    package.json: "aa"
 ---
 
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
