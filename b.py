@@ -1,3 +1,4 @@
+
 # function in other file
 
 def foo(a):
