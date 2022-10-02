@@ -1,0 +1,32 @@
+{
+    "id": "zysty",
+    "name": "blabla",
+    "content": [
+        {
+            "type": "rule",
+            "rule": {
+                "type": "path",
+                "code": "file-modified",
+                "status": "modified",
+                "eventSymbol": "010ce250-b874-4347-bac1-c4e404ef5e93"
+            },
+            "action": {
+                "type": "ghcomment",
+                "url": "https://a.com",
+                "text": "אבגדה"
+            }
+        }
+    ],
+    "symbols": {
+        "010ce250-b874-4347-bac1-c4e404ef5e93": {
+            "type": "path",
+            "text": "a.py",
+            "path": "a.py"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.9.7-0",
+        "file_blobs": {}
+    }
+}
