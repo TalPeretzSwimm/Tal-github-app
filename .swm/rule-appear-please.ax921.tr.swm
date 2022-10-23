@@ -1,0 +1,33 @@
+{
+    "id": "ax921",
+    "name": "rule appear please",
+    "content": [
+        {
+            "type": "rule",
+            "rule": {
+                "type": "path",
+                "code": "file-modified",
+                "status": "modified",
+                "eventSymbol": "d21cc042-01b3-49db-8be0-be5b5be1961f"
+            },
+            "action": {
+                "type": "ghcomment",
+                "url": "https://dana.com",
+                "text": "https://dana.com"
+            }
+        }
+    ],
+    "symbols": {
+        "d21cc042-01b3-49db-8be0-be5b5be1961f": {
+            "type": "path",
+            "text": "a.py",
+            "path": "a.py"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.9.8-0",
+        "file_blobs": {}
+    },
+    "path": ".swm"
+}
