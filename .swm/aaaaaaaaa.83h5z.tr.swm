@@ -1,0 +1,33 @@
+{
+    "id": "83h5z",
+    "name": "aaaaaaaaa",
+    "content": [
+        {
+            "type": "rule",
+            "rule": {
+                "type": "path",
+                "code": "file-modified",
+                "status": "modified",
+                "eventSymbol": "49f040bb-0430-46c5-9d15-c299e9eceab6"
+            },
+            "action": {
+                "type": "ghcomment",
+                "url": "https://dana.com",
+                "text": "https://dana.com"
+            }
+        }
+    ],
+    "symbols": {
+        "49f040bb-0430-46c5-9d15-c299e9eceab6": {
+            "type": "path",
+            "text": "a.py",
+            "path": "a.py"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.9.8-0",
+        "file_blobs": {}
+    },
+    "path": ".swm"
+}
