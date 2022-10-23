@@ -8,17 +8,15 @@
                 "type": "path",
                 "code": "file-modified",
                 "status": "modified",
-                "eventSymbol": "bf70b82d-97b7-4f98-8a5a-1445433c8466"
+                "eventSymbol": "2437ef50-de20-48c8-90dc-bc8396af479b"
             },
             "action": {
-                "type": "ghcomment",
-                "url": "https://dana.com",
-                "text": "https://dana.com"
+                "type": "requireNewDocCheck"
             }
         }
     ],
     "symbols": {
-        "bf70b82d-97b7-4f98-8a5a-1445433c8466": {
+        "2437ef50-de20-48c8-90dc-bc8396af479b": {
             "type": "path",
             "text": "a.py",
             "path": "a.py"
