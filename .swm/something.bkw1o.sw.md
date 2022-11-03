@@ -15,8 +15,6 @@ bla bla bla
 
 <br/>
 
-
-
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 c.py
 ```python
@@ -31,8 +29,6 @@ bla bla bla
 ```
 
 <br/>
-
-
 
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 fileWithALotOfContent.js
