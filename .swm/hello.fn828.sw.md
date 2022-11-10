@@ -6,6 +6,9 @@ app_version: 0.9.9-5
 file_blobs:
   file1.txt: 76dda9aea9b06acc769f6413cce50f2c0e2e98b5
   fileWithALotOfContent.js: 0bfd1350a70bd9ae53bb896747a52bd91782f971
+cross_repo_file_blobs:
+  Z2l0aHViJTNBJTNBY29tbWFuZGVyJTNBJTNBc3dpbW1pbw==:
+    .travis.yml: 0e06daa61b0a7e6d0e09de8a3b3f4eeb01d82a7d
 ---
 
 dadsadsacxcxz
@@ -26,6 +29,28 @@ dadsadsacxcxz
 ⬜ 8      
 ⬜ 9      Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Aliquam eleifend mi in nulla posuere sollicitudin. Diam volutpat commodo sed egestas egestas fringilla phasellus. Nibh tortor id aliquet lectus proin nibh. Id nibh tortor id aliquet lectus proin. Mauris in aliquam sem fringilla ut morbi tincidunt augue interdum. Massa enim nec dui nunc mattis enim ut. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor. Scelerisque varius morbi enim nunc faucibus a pellentesque. Cursus turpis massa tincidunt dui ut ornare. Nunc aliquet bibendum enim facilisis gravida neque convallis a cras. Quam lacus suspendisse faucibus interdum posuere lorem ipsum. Elementum integer enim neque volutpat. Netus et malesuada fames ac turpis. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Fringilla est ullamcorper eget nulla facilisi. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Mauris nunc congue nisi vitae suscipit tellus mauris. Gravida arcu ac tortor dignissim convallis aenean et tortor.
 ⬜ 10     
+```
+
+<br/>
+
+
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+<!-- NOTE-swimm-repo ::Z2l0aHViJTNBJTNBY29tbWFuZGVyJTNBJTNBc3dpbW1pbw==:: -->
+### 📄 .travis.yml
+```yaml
+⬜ 1      language: node_js
+⬜ 2      node_js:
+⬜ 3      - "8"
+🟩 4      - "lts/*"
+🟩 5      - "node"
+🟩 6      cache:
+🟩 7        directories:
+🟩 8          - "node_modules"
+🟩 9      script:
+🟩 10     - npm run lint
+⬜ 11     - npm test
+⬜ 12     
 ```
 
 <br/>
