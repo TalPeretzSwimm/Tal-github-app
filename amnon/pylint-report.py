@@ -38,7 +38,7 @@ def walk(path, excludes=None):
         yield from walk(p)
 
 
-def a_new_function_for_an_exercise():
+def a_new_function_for_an_exercise_2():
     print('Very interesting indeed!')
 
 
