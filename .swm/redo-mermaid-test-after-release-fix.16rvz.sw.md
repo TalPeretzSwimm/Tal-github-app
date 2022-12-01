@@ -12,14 +12,14 @@ app_version: 0.10.0-2
 <!--MERMAID {width:100}-->
 ```mermaid
 erDiagram
-          CUSTOMER }|..|{ DELIVERY-ADDRESS :   has
-          CUSTOMER ||--o{ ORDER : places
-          CUSTOMER ||--o{ INVOICE : "liable for"
-          DELIVERY-ADDRESS ||--o{ ORDER : receives
-          INVOICE ||--|{ ORDER : covers
-          ORDER ||--|{ ORDER-ITEM : includes
-          PRODUCT-CATEGORY ||--|{ PRODUCT : contains
-          PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+CUSTOMER }|..|{ DELIVERY-ADDRESS : has
+CUSTOMER ||--o{ ORDER : places
+CUSTOMER ||--o{ INVOICE : "liable for"
+DELIVERY-ADDRESS ||--o{ ORDER : receives
+INVOICE ||--|{ ORDER : covers
+ORDER ||--|{ ORDER-ITEM : includes
+PRODUCT-CATEGORY ||--|{ PRODUCT : contains
+PRODUCT ||--o{ ORDER-ITEM : "ordered in"
 ```
 <!--MCONTENT {content: erDiagram<br/>
 CUSTOMER }|..|{ DELIVERY-ADDRESS : has<br/>
@@ -29,7 +29,7 @@ DELIVERY-ADDRESS ||--o{ ORDER : receives<br/>
 INVOICE ||--|{ ORDER : covers<br/>
 ORDER ||--|{ ORDER-ITEM : includes<br/>
 PRODUCT-CATEGORY ||--|{ PRODUCT : contains<br/>
-PRODUCT ||--o{ ORDER-ITEM : "ordered in"<br/>} --->
+PRODUCT ||--o{ ORDER-ITEM : "ordered in"} --->
 
 <br/>
 
