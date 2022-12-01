@@ -15,8 +15,8 @@ file_blobs:
 <!--MERMAID {width:100}-->
 ```mermaid
 pie title __getattr__
-   "data": 123
-    "dog": 142
+ "data": 123
+ "dog": 142
 ```
 <!--MCONTENT {content: pie title `__getattr__`[<sup id="Z2bb1rH">↓</sup>](#f-Z2bb1rH)
 "`data`[<sup id="Z1Y6tPg">↓</sup>](#f-Z1Y6tPg)": 123
