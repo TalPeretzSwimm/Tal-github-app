@@ -11,8 +11,20 @@ app_version: 0.10.0-2
 
 <!--MERMAID {width:100}-->
 ```mermaid
+pie title dana "dogs": 12 "cats": 12
+```
+<!--MCONTENT {content: pie title dana "dogs": 12 "cats": 12} --->
+
+<br/>
+
+poieie titl
+
+<br/>
+
+<!--MERMAID {width:100}-->
+```mermaid
 pie title dana 
-  "dogs": 12 
+"dogs": 12 
 "cats": 12
 ```
 <!--MCONTENT {content: pie title dana
@@ -21,8 +33,6 @@ pie title dana
 
 <br/>
 
-poieie titl
-
 <br/>
 
 <br/>
@@ -30,11 +40,11 @@ poieie titl
 <!--MERMAID {width:100}-->
 ```mermaid
 pie title dana
-  "dogs": 12
-  "cats": 12
+ "dogs": 122
+ "cats": 12
 ```
 <!--MCONTENT {content: pie title dana
-"dogs": 12
+"dogs": 122
 "cats": 12} --->
 
 <br/>
