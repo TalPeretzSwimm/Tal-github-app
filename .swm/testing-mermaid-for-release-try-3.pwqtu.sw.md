@@ -11,9 +11,9 @@ app_version: 0.10.0-2
 
 <!--MERMAID {width:100}-->
 ```mermaid
-pie title dana
-  "dogs": 12
-  "cats": 12
+pie title dana 
+  "dogs": 12 
+"cats": 12
 ```
 <!--MCONTENT {content: pie title dana
 "dogs": 12
@@ -22,6 +22,20 @@ pie title dana
 <br/>
 
 poieie titl
+
+<br/>
+
+<br/>
+
+<!--MERMAID {width:100}-->
+```mermaid
+pie title dana
+  "dogs": 12
+  "cats": 12
+```
+<!--MCONTENT {content: pie title dana
+"dogs": 12
+"cats": 12} --->
 
 <br/>
 
