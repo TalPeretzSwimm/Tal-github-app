@@ -23,13 +23,9 @@ poieie titl
 
 <!--MERMAID {width:100}-->
 ```mermaid
-pie title dana 
-"dogs": 12 
-"cats": 12
+pie title dana "dogs": 12 "cats": 12
 ```
-<!--MCONTENT {content: pie title dana
-"dogs": 12
-"cats": 12} --->
+<!--MCONTENT {content: pie title dana "dogs": 12 "cats": 12} --->
 
 <br/>
 
@@ -40,12 +36,12 @@ pie title dana
 <!--MERMAID {width:100}-->
 ```mermaid
 pie title dana
- "dogs": 122
- "cats": 12
+ "dogs": 12
+ "cats": 123
 ```
 <!--MCONTENT {content: pie title dana
-"dogs": 122
-"cats": 12} --->
+"dogs": 12
+"cats": 123} --->
 
 <br/>
 
