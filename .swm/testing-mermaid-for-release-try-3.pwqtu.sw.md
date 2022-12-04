@@ -12,12 +12,12 @@ app_version: 0.10.0-2
 <!--MERMAID {width:100}-->
 ```mermaid
 pie title dana
-  "dogs": 123
-  "cats": 122
+  "dogs": 12
+  "cats": 12
 ```
 <!--MCONTENT {content: pie title dana
-"dogs": 123
-"cats": 122} --->
+"dogs": 12
+"cats": 12} --->
 
 <br/>
 
