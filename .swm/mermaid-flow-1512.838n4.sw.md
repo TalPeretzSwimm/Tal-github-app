@@ -5,23 +5,9 @@ file_version: 1.0.2
 app_version: 0.10.1-4
 ---
 
-Checking if a graph is valid.
+C
 
-<br/>
-
-<!--MERMAID {width:100}-->
-```mermaid
-erDiagram
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : has
-    CUSTOMER ||--o{ ORDER : places
-    CUSTOMER ||--o{ INVOICE : "liable for"
-    DELIVERY-ADDRESS ||--o{ ORDER : receives
-    INVOICE ||--|{ ORDER : covers
-    ORDER ||--|{ ORDER-ITEM : includes
-    PRODUCT-CATEGORY ||--|{ PRODUCT : contains
-    PRODUCT ||--o{ ORDER-ITEM : "ordered in"
-```
-<!--MCONTENT {content: erDiagram<br/>
+erDiagram<br/>
 CUSTOMER }|..|{ DELIVERY-ADDRESS : has<br/>
 CUSTOMER ||--o{ ORDER : places<br/>
 CUSTOMER ||--o{ INVOICE : "liable for"<br/>
@@ -29,11 +15,84 @@ DELIVERY-ADDRESS ||--o{ ORDER : receives<br/>
 INVOICE ||--|{ ORDER : covers<br/>
 ORDER ||--|{ ORDER-ITEM : includes<br/>
 PRODUCT-CATEGORY ||--|{ PRODUCT : contains<br/>
-PRODUCT ||--o{ ORDER-ITEM : "ordered in"<br/>} --->
+PRODUCT ||--o{ ORDER-ITEM : "ordered in"<br/>
+
+pie title Pets adopted by volunteers<br/>
+"Dogs" : 386<br/>
+"Cats" : 85<br/>
+"Rats" : 15<br/>
 
 <br/>
 
+<!--MERMAID {width:50}-->
+```mermaid
+gantt
+    title A Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    section Section
+    A task           :a1, 2014-01-01, 30d
+    Another task     :after a1  , 20d
+    section Another
+    Task in sec      :2014-01-12  , 12d
+    another task      : 24d
+```
+<!--MCONTENT {content: gantt<br/>
+title A Gantt Diagram<br/>
+dateFormat YYYY-MM-DD<br/>
+section Section<br/>
+A task :a1, 2014-01-01, 30d<br/>
+Another task :after a1 , 20d<br/>
+section Another<br/>
+Task in sec :2014-01-12 , 12d<br/>
+another task : 24d<br/>} --->
+
 <br/>
+
+e
+
+erDiagram<br/>
+CUSTOMER }|..|{ DELIVERY-ADDRESS : has<br/>
+CUSTOMER ||--o{ ORDER : places<br/>
+CUSTOMER ||--o{ INVOICE : "liable for"<br/>
+DELIVERY-ADDRESS ||--o{ ORDER : receives<br/>
+INVOICE ||--|{ ORDER : covers<br/>
+ORDER ||--|{ ORDER-ITEM : includes<br/>
+PRODUCT-CATEGORY ||--|{ PRODUCT : contains<br/>
+PRODUCT ||--o{ ORDER-ITEM : "ordered in"<br/>
+
+erDiagram<br/>
+CUSTOMER }|..|{ DELIVERY-ADDRESS : has<br/>
+CUSTOMER ||--o{ ORDER : places<br/>
+CUSTOMER ||--o{ INVOICE : "liable for"<br/>
+DELIVERY-ADDRESS ||--o{ ORDER : receives<br/>
+INVOICE ||--|{ ORDER : covers<br/>
+ORDER ||--|{ ORDER-ITEM : includes<br/>
+PRODUCT-CATEGORY ||--|{ PRODUCT : contains<br/>
+PRODUCT ||--o{ ORDER-ITEM : "ordered in"<br/>
+
+<br/>
+
+<!--MERMAID {width:25}-->
+```mermaid
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
+```
+<!--MCONTENT {content: sequenceDiagram<br/>
+Alice->>+John: Hello John, how are you?<br/>
+Alice->>+John: John, can you hear me?<br/>
+John\-\-\>>-Alice: Hi Alice, I can hear you!<br/>
+John\-\-\>>-Alice: I feel great!<br/>
+
+<br/>} --->
+
+<br/>
+
+jjj
+
+jjjj
 
 <br/>
 
