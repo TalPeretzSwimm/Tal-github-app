@@ -12,12 +12,12 @@ app_version: 0.10.1-4
 <!--MERMAID {width:100}-->
 ```mermaid
 stateDiagram-v2
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
+[*] --> Still
+Still --> [*]
+Still --> Moving
+Moving --> Still
+Moving --> Crash
+Crash --> [*]
 ```
 <!--MCONTENT {content: stateDiagram-v2<br/>
 \[\*\] \-\-\> Still<br/>
@@ -29,33 +29,35 @@ Crash \-\-\> \[\*\]<br/>} --->
 
 <br/>
 
-<br/>
+ssss
+
+sw
 
 <br/>
 
 <!--MERMAID {width:100}-->
 ```mermaid
 classDiagram
-    Anim55555al <|-- Duck
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
-      +String beakColor
-      +swim()
-      +quack()
-    }
-    class Fish{
-      -int sizeInFeet
-      -canEat()
-    }
-    class Zebra{
-      +bool is_wild
-      +run()
-    }
+Anim55555al <|-- Duck
+Animal <|-- Fish
+Animal <|-- Zebra
+Animal : +int age
+Animal : +String gender
+Animal: +isMammal()
+Animal: +mate()
+class Duck{
++String beakColor
++swim()
++quack()
+}
+class Fish{
+-int sizeInFeet
+-canEat()
+}
+class Zebra{
++bool is_wild
++run()
+}
 ```
 <!--MCONTENT {content: classDiagram<br/>
 Anim55555al <|-- Duck<br/>
