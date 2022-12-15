@@ -11,29 +11,29 @@ Checking if a graph is valid.
 
 <!--MERMAID {width:100}-->
 ```mermaid
-gitGraph
-    commit
-    commit
-    branch develop
-    checkout develop
-    commit
-    commit
-    checkout main
-    merge develop
-    commit
-    commit
+erDiagram
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : has
+    CUSTOMER ||--o{ ORDER : places
+    CUSTOMER ||--o{ INVOICE : "liable for"
+    DELIVERY-ADDRESS ||--o{ ORDER : receives
+    INVOICE ||--|{ ORDER : covers
+    ORDER ||--|{ ORDER-ITEM : includes
+    PRODUCT-CATEGORY ||--|{ PRODUCT : contains
+    PRODUCT ||--o{ ORDER-ITEM : "ordered in"
 ```
-<!--MCONTENT {content: gitGraph<br/>
-commit<br/>
-commit<br/>
-branch develop<br/>
-checkout develop<br/>
-commit<br/>
-commit<br/>
-checkout main<br/>
-merge develop<br/>
-commit<br/>
-commit<br/>} --->
+<!--MCONTENT {content: erDiagram<br/>
+CUSTOMER }|..|{ DELIVERY-ADDRESS : has<br/>
+CUSTOMER ||--o{ ORDER : places<br/>
+CUSTOMER ||--o{ INVOICE : "liable for"<br/>
+DELIVERY-ADDRESS ||--o{ ORDER : receives<br/>
+INVOICE ||--|{ ORDER : covers<br/>
+ORDER ||--|{ ORDER-ITEM : includes<br/>
+PRODUCT-CATEGORY ||--|{ PRODUCT : contains<br/>
+PRODUCT ||--o{ ORDER-ITEM : "ordered in"<br/>} --->
+
+<br/>
+
+<br/>
 
 <br/>
 
