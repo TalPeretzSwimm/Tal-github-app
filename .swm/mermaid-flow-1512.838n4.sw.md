@@ -5,94 +5,101 @@ file_version: 1.0.2
 app_version: 0.10.1-4
 ---
 
-C
-
-erDiagram<br/>
-CUSTOMER }|..|{ DELIVERY-ADDRESS : has<br/>
-CUSTOMER ||--o{ ORDER : places<br/>
-CUSTOMER ||--o{ INVOICE : "liable for"<br/>
-DELIVERY-ADDRESS ||--o{ ORDER : receives<br/>
-INVOICE ||--|{ ORDER : covers<br/>
-ORDER ||--|{ ORDER-ITEM : includes<br/>
-PRODUCT-CATEGORY ||--|{ PRODUCT : contains<br/>
-PRODUCT ||--o{ ORDER-ITEM : "ordered in"<br/>
-
-pie title Pets adopted by volunteers<br/>
-"Dogs" : 386<br/>
-"Cats" : 85<br/>
-"Rats" : 15<br/>
+<br/>
 
 <br/>
 
-<!--MERMAID {width:50}-->
+<!--MERMAID {width:100}-->
 ```mermaid
-gantt
-    title A Gantt Diagram
-    dateFormat  YYYY-MM-DD
-    section Section
-    A task           :a1, 2014-01-01, 30d
-    Another task     :after a1  , 20d
-    section Another
-    Task in sec      :2014-01-12  , 12d
-    another task      : 24d
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
 ```
-<!--MCONTENT {content: gantt<br/>
-title A Gantt Diagram<br/>
-dateFormat YYYY-MM-DD<br/>
-section Section<br/>
-A task :a1, 2014-01-01, 30d<br/>
-Another task :after a1 , 20d<br/>
-section Another<br/>
-Task in sec :2014-01-12 , 12d<br/>
-another task : 24d<br/>} --->
+<!--MCONTENT {content: stateDiagram-v2<br/>
+\[\*\] \-\-\> Still<br/>
+Still \-\-\> \[\*\]<br/>
+Still \-\-\> Moving<br/>
+Moving \-\-\> Still<br/>
+Moving \-\-\> Crash<br/>
+Crash \-\-\> \[\*\]<br/>} --->
 
 <br/>
 
-e
-
-erDiagram<br/>
-CUSTOMER }|..|{ DELIVERY-ADDRESS : has<br/>
-CUSTOMER ||--o{ ORDER : places<br/>
-CUSTOMER ||--o{ INVOICE : "liable for"<br/>
-DELIVERY-ADDRESS ||--o{ ORDER : receives<br/>
-INVOICE ||--|{ ORDER : covers<br/>
-ORDER ||--|{ ORDER-ITEM : includes<br/>
-PRODUCT-CATEGORY ||--|{ PRODUCT : contains<br/>
-PRODUCT ||--o{ ORDER-ITEM : "ordered in"<br/>
-
-erDiagram<br/>
-CUSTOMER }|..|{ DELIVERY-ADDRESS : has<br/>
-CUSTOMER ||--o{ ORDER : places<br/>
-CUSTOMER ||--o{ INVOICE : "liable for"<br/>
-DELIVERY-ADDRESS ||--o{ ORDER : receives<br/>
-INVOICE ||--|{ ORDER : covers<br/>
-ORDER ||--|{ ORDER-ITEM : includes<br/>
-PRODUCT-CATEGORY ||--|{ PRODUCT : contains<br/>
-PRODUCT ||--o{ ORDER-ITEM : "ordered in"<br/>
+<br/>
 
 <br/>
 
-<!--MERMAID {width:25}-->
+<!--MERMAID {width:100}-->
 ```mermaid
-sequenceDiagram
-    Alice->>+John: Hello John, how are you?
-    Alice->>+John: John, can you hear me?
-    John-->>-Alice: Hi Alice, I can hear you!
-    John-->>-Alice: I feel great!
+classDiagram
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class Fish{
+      -int sizeInFeet
+      -canEat()
+    }
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
 ```
-<!--MCONTENT {content: sequenceDiagram<br/>
-Alice->>+John: Hello John, how are you?<br/>
-Alice->>+John: John, can you hear me?<br/>
-John\-\-\>>-Alice: Hi Alice, I can hear you!<br/>
-John\-\-\>>-Alice: I feel great!<br/>
-
-<br/>} --->
+<!--MCONTENT {content: classDiagram<br/>
+Animal <|-- Duck<br/>
+Animal <|-- Fish<br/>
+Animal <|-- Zebra<br/>
+Animal : +int age<br/>
+Animal : +String gender<br/>
+Animal: +isMammal()<br/>
+Animal: +mate()<br/>
+class Duck{<br/>
++String beakColor<br/>
++swim()<br/>
++quack()<br/>
+}<br/>
+class Fish{<br/>
+\-int sizeInFeet<br/>
+\-canEat()<br/>
+}<br/>
+class Zebra{<br/>
++bool is\_wild<br/>
++run()<br/>
+}<br/>} --->
 
 <br/>
 
-jjj
+<br/>
 
-jjjj
+<br/>
+
+<!--MERMAID {width:100}-->
+```mermaid
+graph TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
+<!--MCONTENT {content: graph TD<br/>
+A\[Christmas\] \-\-\>|Get money| B(Go shopping)<br/>
+B \-\-\> C{Let me think}<br/>
+C \-\-\>|One| D\[Laptop\]<br/>
+C \-\-\>|Two| E\[iPhone\]<br/>
+C \-\-\>|Three| F\[fa:fa-car Car\]<br/>} --->
 
 <br/>
 
