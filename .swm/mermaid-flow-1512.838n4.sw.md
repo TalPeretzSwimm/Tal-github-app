@@ -11,9 +11,49 @@ Checking if a graph is valid.
 
 <!--MERMAID {width:100}-->
 ```mermaid
-f
+classDiagram
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class Fish{
+      -int sizeInFeet
+      -canEat()
+    }
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
 ```
-<!--MCONTENT {content: f} --->
+<!--MCONTENT {content: classDiagram<br/>
+Animal <|-- Duck<br/>
+Animal <|-- Fish<br/>
+Animal <|-- Zebra<br/>
+Animal : +int age<br/>
+Animal : +String gender<br/>
+Animal: +isMammal()<br/>
+Animal: +mate()<br/>
+class Duck{<br/>
++String beakColor<br/>
++swim()<br/>
++quack()<br/>
+}<br/>
+class Fish{<br/>
+\-int sizeInFeet<br/>
+\-canEat()<br/>
+}<br/>
+class Zebra{<br/>
++bool is\_wild<br/>
++run()<br/>
+}<br/>} --->
 
 <br/>
 
