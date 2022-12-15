@@ -12,16 +12,22 @@ app_version: 0.10.1-4
 <!--MERMAID {width:100}-->
 ```mermaid
 sequenceDiagram
-    Alice->>+John: Hello John, how are you?
-    Alice->>+John: John, can you hear me?
-    John-->>-Alice: Hi Alice, I can hear you!
-    John-->>-Alice: I feel great!
+Alice->>+John: Hello John, how are you?
+Alice->>+John: John, can you hear me?
+John-->>-Alice: Hi Alice, I can hear you!
+John-->>-Alice: I feel great!
 ```
 <!--MCONTENT {content: sequenceDiagram<br/>
 Alice->>+John: Hello John, how are you?<br/>
 Alice->>+John: John, can you hear me?<br/>
 John\-\-\>>-Alice: Hi Alice, I can hear you!<br/>
-John\-\-\>>-Alice: I feel great!} --->
+John\-\-\>>-Alice: I feel great!
+
+<br/>
+
+<br/>
+
+<br/>} --->
 
 <br/>
 
@@ -32,9 +38,9 @@ John\-\-\>>-Alice: I feel great!} --->
 <!--MERMAID {width:100}-->
 ```mermaid
 pie title Pets adopted by volunteers
-    "Dogs" : 386
-    "Cats" : 85
-    "Rats" : 15
+"Dogs" : 386
+"Cats" : 85
+"Rats" : 15
 ```
 <!--MCONTENT {content: pie title Pets adopted by volunteers<br/>
 "Dogs" : 386<br/>
@@ -49,31 +55,29 @@ ssssswsw
 
 <br/>
 
-<br/>
-
 <!--MERMAID {width:100}-->
 ```mermaid
 classDiagram
-    Anisssssmal <|-- Duck
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
-      +String beakColor
-      +swim()
-      +quack()
-    }
-    class Fish{
-      -int sizeInFeet
-      -canEat()
-    }
-    class Zebra{
-      +bool is_wild
-      +run()
-    }
+Anisssssmal <|-- Duck
+Animal <|-- Fish
+Animal <|-- Zebra
+Animal : +int age
+Animal : +String gender
+Animal: +isMammal()
+Animal: +mate()
+class Duck{
++String beakColor
++swim()
++quack()
+}
+class Fish{
+-int sizeInFeet
+-canEat()
+}
+class Zebra{
++bool is_wild
++run()
+}
 ```
 <!--MCONTENT {content: classDiagram<br/>
 Anisssssmal <|-- Duck<br/>
