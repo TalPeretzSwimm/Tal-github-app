@@ -5,6 +5,7 @@ file_version: 1.0.2
 app_version: 0.10.1-4
 file_blobs:
   amnon/pylint-report.py: 3dcb2bce4da93da8d210abe89d8ac0d6e910b1b3
+  fileWithALotOfContent.js: 0bfd1350a70bd9ae53bb896747a52bd91782f971
 ---
 
 <br/>
@@ -36,19 +37,19 @@ C \-\-\>|Three| F\[fa:fa-car Car\]<br/>} --->
 <!--MERMAID {width:100}-->
 ```mermaid
 stateDiagram-v2
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
+[*] --> Still
+Still --> [*]
+Still --> Moving
+Moving --> Still
+Moving --> addRepoResult
+Crash --> [*]
 ```
 <!--MCONTENT {content: stateDiagram-v2<br/>
 \[\*\] \-\-\> Still<br/>
 Still \-\-\> \[\*\]<br/>
 Still \-\-\> Moving<br/>
 Moving \-\-\> Still<br/>
-Moving \-\-\> Crash<br/>
+Moving \-\-\> `addRepoResult`[<sup id="16Nb0L">↓</sup>](#f-16Nb0L)<br/>
 Crash \-\-\> \[\*\]} --->
 
 <br/>
@@ -59,6 +60,11 @@ Crash \-\-\> \[\*\]} --->
 <span id="f-Zm9Mwz">a_new_function_for_an_exercise_2</span>[^](#Zm9Mwz) - "amnon/pylint-report.py" L41
 ```python
 def a_new_function_for_an_exercise_2():
+```
+
+<span id="f-16Nb0L">addRepoResult</span>[^](#16Nb0L) - "fileWithALotOfContent.js" L4469
+```javascript
+                const addRepoResult = await CloudFunctions.addRepoToWorkspace({ workspaceId, repoId, isPrivate });
 ```
 
 <br/>
