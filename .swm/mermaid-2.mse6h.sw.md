@@ -4,8 +4,8 @@ name: mermaid 2
 file_version: 1.0.2
 app_version: 0.10.1-4
 file_blobs:
-  amnon/pylint-report.py: 3dcb2bce4da93da8d210abe89d8ac0d6e910b1b3
   fileWithALotOfContent.js: 0bfd1350a70bd9ae53bb896747a52bd91782f971
+  amnon/pylint-report.py: 3dcb2bce4da93da8d210abe89d8ac0d6e910b1b3
 ---
 
 <br/>
@@ -51,6 +51,31 @@ Still \-\-\> Moving<br/>
 Moving \-\-\> Still<br/>
 Moving \-\-\> `addRepoResult`[<sup id="16Nb0L">↓</sup>](#f-16Nb0L)<br/>
 Crash \-\-\> \[\*\]} --->
+
+<br/>
+
+<br/>
+
+<br/>
+
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 fileWithALotOfContent.js
+```javascript
+⬜ 9      import { discoverAndGenerateDocs, discoverDocs, generateDocs, sgdOnGeneratedDocSavedHandler } from './generated-docs';
+⬜ 10     import { DocumentMetadata, isDocumentId, isDocumentMetadata } from './generated-docs/documents/document';
+⬜ 11     import { RepoTarget, isRepoTarget } from './generated-docs/utils/clone';
+🟩 12     import { sendSGMail } from './utils/sendgrid';
+🟩 13     import { logEventCloud } from './eventLogger/logAndReportEvent';
+🟩 14     import * as commonUtils from './utils/common';
+🟩 15     import { firestoreCollectionNames, resourcesErrors } from './utils/consts';
+🟩 16     import { checkIfRepoExistsAndUserInRepo } from './utils/check_helpers';
+🟩 17     import { getLogger } from './utils/cloud-logger';
+🟩 18     import { isProduction, isStage, projectId } from './utils/config';
+⬜ 19     
+⬜ 20     import { githubApp, marketplaceGitHubAppHandler } from './githubApp';
+⬜ 21     import { dailyMailHandler } from './mailer';
+```
 
 <br/>
 
