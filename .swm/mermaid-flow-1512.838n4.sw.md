@@ -11,9 +11,9 @@ Checking if a graph is valid.
 
 <!--MERMAID {width:100}-->
 ```mermaid
-
+f
 ```
-<!--MCONTENT {content: <br/>} --->
+<!--MCONTENT {content: f} --->
 
 <br/>
 
