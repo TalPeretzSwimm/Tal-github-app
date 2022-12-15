@@ -11,15 +11,29 @@ Checking if a graph is valid.
 
 <!--MERMAID {width:100}-->
 ```mermaid
-pie title Pets adopted by volunteers
-    "Dogs" : 386
-    "Cats" : 85
-    "Rats" : 15
+gitGraph
+    commit
+    commit
+    branch develop
+    checkout develop
+    commit
+    commit
+    checkout main
+    merge develop
+    commit
+    commit
 ```
-<!--MCONTENT {content: pie title Pets adopted by volunteers<br/>
-"Dogs" : 386<br/>
-"Cats" : 85<br/>
-"Rats" : 15<br/>} --->
+<!--MCONTENT {content: gitGraph<br/>
+commit<br/>
+commit<br/>
+branch develop<br/>
+checkout develop<br/>
+commit<br/>
+commit<br/>
+checkout main<br/>
+merge develop<br/>
+commit<br/>
+commit<br/>} --->
 
 <br/>
 
