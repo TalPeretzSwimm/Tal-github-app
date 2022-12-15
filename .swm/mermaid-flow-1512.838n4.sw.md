@@ -9,23 +9,11 @@ Checking if a graph is valid.
 
 <br/>
 
-<br/>
-
 <!--MERMAID {width:100}-->
 ```mermaid
-graph TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+
 ```
-<!--MCONTENT {content: graph TD<br/>
-A\[Christmas\] \-\-\>|Get money| B(Go shopping)<br/>
-B \-\-\> C{Let me think}<br/>
-C \-\-\>|One| D\[Laptop\]<br/>
-C \-\-\>|Two| E\[iPhone\]<br/>
-C \-\-\>|Three| F\[fa:fa-car Car\]<br/>} --->
+<!--MCONTENT {content: <br/>} --->
 
 <br/>
 
