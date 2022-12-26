@@ -1,8 +1,8 @@
 ---
 id: d5raz
 name: test mermaid escaping
-file_version: 1.0.2
-app_version: 0.10.1-4
+file_version: 1.1.0
+app_version: 0.11.0
 ---
 
 <br/>
@@ -11,15 +11,19 @@ app_version: 0.10.1-4
 
 <!--MERMAID {width:100}-->
 ```mermaid
-stateDiagram-v2
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
+pie title Pets adopted by volunteers
+"Dogs" : 386
+"Cats" : 85
+"Rats" : 15
 ```
-<!--MCONTENT {content: "stateDiagram-v2<br/>\n\\[\\*\\] \\-\\-\\> Still<br/>\nStill \\-\\-\\> \\[\\*\\]<br/>\nStill \\-\\-\\> Moving<br/>\nMoving \\-\\-\\> Still<br/>\nMoving \\-\\-\\> Crash<br/>\nCrash \\-\\-\\> \\[\\*\\]<br/>"} --->
+<!--MCONTENT {content: pie title Pets adopted by volunteers<br/>
+"Dogs" : 386<br/>
+"Cats" : 85<br/>
+"Rats" : 15<br/>} --->
+
+<br/>
+
+<br/>
 
 <br/>
 
