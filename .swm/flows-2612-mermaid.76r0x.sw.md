@@ -21,19 +21,13 @@ error
 
 <br/>
 
-<br/>
-
 <!--MERMAID {width:100}-->
 ```mermaid
-
 
 lk
 ```
 <!--MCONTENT {content: <br/>
-
 lk} --->
-
-<br/>
 
 <br/>
 
@@ -44,13 +38,13 @@ lk} --->
 <!--MERMAID {width:100}-->
 ```mermaid
 sequenceDiagram
-Alice->>+John: Hello John, how are you?
+Alice->>+John: Hennnnllo John, how are you?
 Alice->>+John: John, can you hear me?
 John-->>-Alice: Hi Alice, I can hear you!
 John-->>-Alice: I feel great!
 ```
 <!--MCONTENT {content: sequenceDiagram<br/>
-Alice->>+John: Hello John, how are you?<br/>
+Alice->>+John: Hennnnllo John, how are you?<br/>
 Alice->>+John: John, can you hear me?<br/>
 John\-\-\>>-Alice: Hi Alice, I can hear you!<br/>
 John\-\-\>>-Alice: I feel great!<br/>} --->
