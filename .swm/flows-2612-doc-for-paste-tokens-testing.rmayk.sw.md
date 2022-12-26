@@ -6,6 +6,7 @@ app_version: 0.11.0
 file_blobs:
   b.py: add40c61d35d122de6e719ab2ada5660caec7cb7
   amnon/pylint-report.py: 3dcb2bce4da93da8d210abe89d8ac0d6e910b1b3
+  fileWithALotOfContent.js: 0bfd1350a70bd9ae53bb896747a52bd91782f971
 ---
 
 This is a testing doc that dana created which includes paths, snippets, links and smart tokens.
@@ -16,7 +17,7 @@ so here is a file `📄 dummy.py`
 
 here is smart token `a_new_function_for_an_exercise_2`<swm-token data-swm-token=":amnon/pylint-report.py:41:2:2:`def&#32;a_new_function_for_an_exercise_2&#40;&#41;:`"/>
 
-here is a line with both `&#91;&#96;doc_count_[[sym-text:[`doc\_count\_${totalDocCount}\_event\_sent`](fdcf9184-3850-4762-9b20-ed36ac66b60b)]]#123;totalDocCount&#125;_event_sent&#96;&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:694:-1:-1:\\\\\\\\\\\\\\\`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;&#96;doc\\\\\\\\\\\\\\\_count\\\\\\\\\\\\\\\_\\\\\\\\\\\\\\\[\\\\\\\\\\\\\\\[sym-text:\\\\\\\\\\\\\\\[\\\\\\\\\\\\\\\`doc\\\\\\\\\\\\\\\_count\\\\\\\\\\\\\\\_${totalDocCount}\\\\\\\\\\\\\\\_event\\\\\\\\\\\\\\\_sent\\\\\\\\\\\\\\\`\\\\\\\\\\\\\\\](fdcf9184-3850-4762-9b20-ed36ac66b60b)\\\\\\\\\\\\\\\]\\\\\\\\\\\\\\\]#123;totalDocCount&#125;\\\\\\\\\\\\\\\_event\\\\\\\\\\\\\\\_sent&#96;&#93;:&#32;salesforceEventSent,\\\\\\\\\\\\\\\`"/> `📄 fileWithALotOfContent.js`
+here is a line with both! `addInviteEmailToWorkspace`<swm-token data-swm-token=":fileWithALotOfContent.js:4599:1:1:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;addInviteEmailToWorkspace&#40;&#123;&#32;commit,&#32;state&#32;&#125;,&#32;args&#41;&#32;&#123;`"/> `📄 fileWithALotOfContent.js`
 
 here is a link [Test no content](test-no-content.2el3s.pl.sw.md) to playlist
 
@@ -28,9 +29,9 @@ what else? maybe...let's try a table.
 
 <br/>
 
-|blabla                            |`&#91;&#96;doc_count_[[sym-text:[`doc\_count\_${totalDocCount}\_date`](895f4208-f16a-4d9c-8329-8c3bba0c9424)]]#123;totalDocCount&#125;_date&#96;&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:695:-1:-1:\\\\\\\\\\\\\\\`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;&#96;doc\\\\\\\\\\\\\\\_count\\\\\\\\\\\\\\\_\\\\\\\\\\\\\\\[\\\\\\\\\\\\\\\[sym-text:\\\\\\\\\\\\\\\[\\\\\\\\\\\\\\\`doc\\\\\\\\\\\\\\\_count\\\\\\\\\\\\\\\_${totalDocCount}\\\\\\\\\\\\\\\_date\\\\\\\\\\\\\\\`\\\\\\\\\\\\\\\](895f4208-f16a-4d9c-8329-8c3bba0c9424)\\\\\\\\\\\\\\\]\\\\\\\\\\\\\\\]#123;totalDocCount&#125;\\\\\\\\\\\\\\\_date&#96;&#93;:&#32;FieldValue.serverTimestamp&#40;&#41;,\\\\\\\\\\\\\\\`"/>|
-|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|```bash<br>code is awesome!<br>```|`📄 test.md`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|blabla                            |`&#91;data.repoTarget.branchOrTag&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:335:-1:-1:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;data.repoTarget.branchOrTag&#93;:&#32;&#123;&#32;numberOfDocuments:&#32;discoveredDocs.length&#32;&#125;,`"/>|
+|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|```bash<br>code is awesome!<br>```|`📄 test.md`                                                                                                                                                                                                                                                                                             |
 
 <br/>
 
@@ -58,7 +59,7 @@ Oh, almost forgot the snippet thing!
 
 <br/>
 
-`📄 fileWithALotOfContent.js` `&#91;&#96;doc_count_[[sym-text:[`doc\_count\_${totalDocCount}\_event\_sent`](6c941c67-9abd-49c8-b2fb-d05a461943c1)]]#123;totalDocCount&#125;_event_sent&#96;&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:694:-1:-1:\\\`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;&#96;doc\\\_count\\\_\\\[\\\[sym-text:\\\[\\\`doc\\\_count\\\_${totalDocCount}\\\_event\\\_sent\\\`\\\](6c941c67-9abd-49c8-b2fb-d05a461943c1)\\\]\\\]#123;totalDocCount&#125;\\\_event\\\_sent&#96;&#93;:&#32;salesforceEventSent,\\\`"/>
+`📄 fileWithALotOfContent.js` `&#91;&#96;doc_count_[[sym-text:[`doc_count_${totalDocCount}_date`](f8366ed3-2915-43b7-8500-570f93f4010c)]]#123;totalDocCount&#125;_date&#96;&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:695:-1:-1:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;&#96;doc_count_[[sym-text:[`doc_count_${totalDocCount}_date`](f8366ed3-2915-43b7-8500-570f93f4010c)]]#123;totalDocCount&#125;_date&#96;&#93;:&#32;FieldValue.serverTimestamp&#40;&#41;,`"/>
 
 <br/>
 
