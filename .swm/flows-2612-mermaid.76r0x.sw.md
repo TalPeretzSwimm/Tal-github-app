@@ -3,6 +3,8 @@ id: 76r0x
 name: Flows 26.12 | Mermaid
 file_version: 1.1.0
 app_version: 0.11.0
+file_blobs:
+  fileWithALotOfContent.js: 0bfd1350a70bd9ae53bb896747a52bd91782f971
 ---
 
 empty
@@ -35,16 +37,16 @@ lk} --->
 
 <br/>
 
-<!--MERMAID {width:50}-->
+<!--MERMAID {width:100}-->
 ```mermaid
 sequenceDiagram
-Alice->>+John: Hennnnllo John, how are you?
+`tokenObj`\->>+John: Hello John, how are you?
 Alice->>+John: John, can you hear me?
 John-->>-Alice: Hi Alice, I can hear you!
 John-->>-Alice: I feel great!
 ```
 <!--MCONTENT {content: sequenceDiagram<br/>
-Alice->>+John: Hennnnllo John, how are you?<br/>
+`tokenObj`<swm-token data-swm-token=":fileWithALotOfContent.js:1121:3:3:`                        const tokenObj = await response.json();`"/>\->>+John: Hello John, how are you?<br/>
 Alice->>+John: John, can you hear me?<br/>
 John\-\-\>>-Alice: Hi Alice, I can hear you!<br/>
 John\-\-\>>-Alice: I feel great!<br/>} --->
