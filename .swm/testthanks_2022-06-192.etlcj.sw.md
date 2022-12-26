@@ -1,10 +1,12 @@
 ---
 id: etlcj
 name: TestThanks_2022-06-19#2
-file_version: 1.0.2
-app_version: 0.9.6-1
+file_version: 1.1.0
+app_version: 0.11.0
 file_blobs:
   file1.txt: 76dda9aea9b06acc769f6413cce50f2c0e2e98b5
+  amnon/process-har.py: 8c8ac614823d4dbdaad204ef0ceebb1e984bb9c9
+  fileWithALotOfContent.js: 0bfd1350a70bd9ae53bb896747a52bd91782f971
 ---
 
 \`khghgjkhנצג
@@ -18,6 +20,18 @@ file_blobs:
 ⬜ 5      this is Modified
 ⬜ 6      
 ```
+
+<br/>
+
+`fgGreen`<swm-token data-swm-token=":amnon/process-har.py:63:1:1:`&#32;&#32;&#32;&#32;fgGreen&#32;=&#32;&quot;\033&#91;32m&quot;`"/>
+
+`numberOfDocuments`<swm-token data-swm-token=":fileWithALotOfContent.js:257:12:12:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;data.repoTarget.branchOrTag&#93;:&#32;&#123;&#32;numberOfDocuments:&#32;discoveredDocs.length&#32;&#125;,`"/>
+
+`total_doc_count`<swm-token data-swm-token=":fileWithALotOfContent.js:724:6:6:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;.update&#40;&#123;&#32;total_doc_count:&#32;admin.firestore.FieldValue.increment&#40;1&#41;&#32;&#125;&#41;;`"/>
+
+`docData`<swm-token data-swm-token=":fileWithALotOfContent.js:747:3:3:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;const&#32;docData&#32;=&#32;&#40;await&#32;docRef.get&#40;&#41;&#41;.data&#40;&#41;;`"/>
+
+\`
 
 <br/>
 

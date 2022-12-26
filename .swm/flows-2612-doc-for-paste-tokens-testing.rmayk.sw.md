@@ -27,11 +27,17 @@ what else? maybe...let's try a table.
 
 `Smaller`<swm-token data-swm-token=":b.py:9:8:8:`		print&#40;&quot;a&#32;is&#32;Smaller&quot;&#41;`"/>
 
+`isObj`<swm-token data-swm-token=":fileWithALotOfContent.js:108:3:3:`&#32;&#32;&#32;&#32;const&#32;isObj&#32;=&#32;typeof&#32;obj&#32;===&#32;&#39;object&#39;;`"/>
+
+`action`<swm-token data-swm-token=":fileWithALotOfContent.js:2203:7:7:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.logUpdateHunkChanges&#40;&#123;&#32;action:&#32;&#39;acceptAutosynced&#39;&#32;&#125;&#41;;`"/>
+
+`total_doc_count`<swm-token data-swm-token=":fileWithALotOfContent.js:724:6:6:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;.update&#40;&#123;&#32;total_doc_count:&#32;admin.firestore.FieldValue.increment&#40;1&#41;&#32;&#125;&#41;;`"/>
+
 <br/>
 
-|blabla                            |`&#91;data.repoTarget.branchOrTag&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:335:-1:-1:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;data.repoTarget.branchOrTag&#93;:&#32;&#123;&#32;numberOfDocuments:&#32;discoveredDocs.length&#32;&#125;,`"/>|
-|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|```bash<br>code is awesome!<br>```|`📄 test.md`                                                                                                                                                                                                                                                                                             |
+|blabla                            |`&#91;data.repoTarget.branchOrTag&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:335:-1:-1:\\\`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;data.repoTarget.branchOrTag&#93;:&#32;&#123;&#32;numberOfDocuments:&#32;discoveredDocs.length&#32;&#125;,\\\`"/>|
+|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|```bash<br>code is awesome!<br>```|`📄 test.md`                                                                                                                                                                                                                                                                                                   |
 
 <br/>
 
@@ -59,7 +65,7 @@ Oh, almost forgot the snippet thing!
 
 <br/>
 
-`📄 fileWithALotOfContent.js` `&#91;&#96;doc_count_[[sym-text:[`doc_count_${totalDocCount}_date`](f8366ed3-2915-43b7-8500-570f93f4010c)]]#123;totalDocCount&#125;_date&#96;&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:695:-1:-1:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;&#96;doc_count_[[sym-text:[`doc_count_${totalDocCount}_date`](f8366ed3-2915-43b7-8500-570f93f4010c)]]#123;totalDocCount&#125;_date&#96;&#93;:&#32;FieldValue.serverTimestamp&#40;&#41;,`"/>
+`📄 fileWithALotOfContent.js` `&#91;&#96;doc_count_[[sym-text:[`doc\_count\_${totalDocCount}\_date`](f8366ed3-2915-43b7-8500-570f93f4010c)]]#123;totalDocCount&#125;_date&#96;&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:695:-1:-1:\\\`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;&#96;doc\\\_count\\\_\\\[\\\[sym-text:\\\[\\\`doc\\\_count\\\_${totalDocCount}\\\_date\\\`\\\](f8366ed3-2915-43b7-8500-570f93f4010c)\\\]\\\]#123;totalDocCount&#125;\\\_date&#96;&#93;:&#32;FieldValue.serverTimestamp&#40;&#41;,\\\`"/>
 
 <br/>
 
