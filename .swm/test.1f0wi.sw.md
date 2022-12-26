@@ -9,7 +9,9 @@ file_blobs:
 
 this is a new doc
 
-`&#91;&#96;counter_[[sym-text:[`counter_${collectionName}`](97057a46-3252-42c2-bd07-5fee793e0cc1)]]#123;collectionName&#125;&#96;&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:829:-1:-1:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;snapshot.ref.parent.parent.update&#40;&#123;&#32;&#91;&#96;counter_[[sym-text:[`counter_${collectionName}`](97057a46-3252-42c2-bd07-5fee793e0cc1)]]#123;collectionName&#125;&#96;&#93;:&#32;increment&#32;&#125;&#41;;`"/>
+`&#91;&#96;counter_[[sym-text:[`counter\_${collectionName}`](97057a46-3252-42c2-bd07-5fee793e0cc1)]]#123;collectionName&#125;&#96;&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:829:-1:-1:\\\`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;snapshot.ref.parent.parent.update&#40;&#123;&#32;&#91;&#96;counter\\\_\\\[\\\[sym-text:\\\[\\\`counter\\\_${collectionName}\\\`\\\](97057a46-3252-42c2-bd07-5fee793e0cc1)\\\]\\\]#123;collectionName&#125;&#96;&#93;:&#32;increment&#32;&#125;&#41;;\\\`"/>
+
+`token`<swm-token data-swm-token=":fileWithALotOfContent.js:1122:3:3:`                        const token = tokenObj.access_token;`"/>
 
 <br/>
 

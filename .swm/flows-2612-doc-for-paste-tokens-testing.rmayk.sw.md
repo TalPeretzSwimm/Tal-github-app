@@ -15,9 +15,9 @@ I should copy some tokens from here and paste it in a doc in another tab, and ho
 
 so here is a file `📄 dummy.py`
 
-here is smart token `a_new_function_for_an_exercise_2`<swm-token data-swm-token=":amnon/pylint-report.py:41:2:2:`def&#32;a_new_function_for_an_exercise_2&#40;&#41;:`"/>
+here is smart token `a_new_function_for_an_exercise_2`<swm-token data-swm-token=":amnon/pylint-report.py:41:2:2:`def a_new_function_for_an_exercise_2():`"/>
 
-here is a line with both! `addInviteEmailToWorkspace`<swm-token data-swm-token=":fileWithALotOfContent.js:4599:1:1:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;addInviteEmailToWorkspace&#40;&#123;&#32;commit,&#32;state&#32;&#125;,&#32;args&#41;&#32;&#123;`"/> `📄 fileWithALotOfContent.js`
+here is a line with both! `addInviteEmailToWorkspace`<swm-token data-swm-token=":fileWithALotOfContent.js:4599:1:1:`        addInviteEmailToWorkspace({ commit, state }, args) {`"/> `📄 fileWithALotOfContent.js`
 
 here is a link [Test no content](test-no-content.2el3s.pl.sw.md) to playlist
 
@@ -25,19 +25,21 @@ here is a link to [DOC WITH IMAGE](doc-with-image.15m6g.sw.md) a doc!
 
 what else? maybe...let's try a table.
 
-`Smaller`<swm-token data-swm-token=":b.py:9:8:8:`		print&#40;&quot;a&#32;is&#32;Smaller&quot;&#41;`"/>
+`Smaller`<swm-token data-swm-token=":b.py:9:8:8:`		print(&quot;a is Smaller&quot;)`"/>
 
-`isObj`<swm-token data-swm-token=":fileWithALotOfContent.js:108:3:3:`&#32;&#32;&#32;&#32;const&#32;isObj&#32;=&#32;typeof&#32;obj&#32;===&#32;&#39;object&#39;;`"/>
+`isObj`<swm-token data-swm-token=":fileWithALotOfContent.js:108:3:3:`    const isObj = typeof obj === &#39;object&#39;;`"/>
 
-`action`<swm-token data-swm-token=":fileWithALotOfContent.js:2203:7:7:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.logUpdateHunkChanges&#40;&#123;&#32;action:&#32;&#39;acceptAutosynced&#39;&#32;&#125;&#41;;`"/>
+`action`<swm-token data-swm-token=":fileWithALotOfContent.js:2203:7:7:`                this.logUpdateHunkChanges({ action: &#39;acceptAutosynced&#39; });`"/>
 
-`total_doc_count`<swm-token data-swm-token=":fileWithALotOfContent.js:724:6:6:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;.update&#40;&#123;&#32;total_doc_count:&#32;admin.firestore.FieldValue.increment&#40;1&#41;&#32;&#125;&#41;;`"/>`📄 fileWithALotOfContent.js` `total_doc_count`<swm-token data-swm-token=":fileWithALotOfContent.js:724:6:6:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;.update&#40;&#123;&#32;total_doc_count:&#32;admin.firestore.FieldValue.increment&#40;1&#41;&#32;&#125;&#41;;`"/>`addAccountProperties`<swm-token data-swm-token=":fileWithALotOfContent.js:77:4:4:`export&#32;const&#32;addAccountProperties&#32;=&#32;trackingFunctions.addAccountProperties;`"/>`addRouteParams`<swm-token data-swm-token=":fileWithALotOfContent.js:2110:18:18:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.analytics.track&#40;productEvents.TABLE_ADDED,&#32;&#123;&#125;,&#32;&#123;&#32;addRouteParams:&#32;true&#32;&#125;&#41;;`"/>`&#91;&#96;counter_upvotes&#96;&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:941:-1:-1:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;return&#32;resource.update&#40;&#123;&#32;&#91;&#96;counter_upvotes&#96;&#93;:&#32;decrement&#32;&#125;&#41;;`"/>
+`total_doc_count`<swm-token data-swm-token=":fileWithALotOfContent.js:724:6:6:`                    .update({ total_doc_count: admin.firestore.FieldValue.increment(1) });`"/>`📄 fileWithALotOfContent.js` `total_doc_count`<swm-token data-swm-token=":fileWithALotOfContent.js:724:6:6:`                    .update({ total_doc_count: admin.firestore.FieldValue.increment(1) });`"/>`addAccountProperties`<swm-token data-swm-token=":fileWithALotOfContent.js:77:4:4:`export const addAccountProperties = trackingFunctions.addAccountProperties;`"/>`addRouteParams`<swm-token data-swm-token=":fileWithALotOfContent.js:2110:18:18:`            this.analytics.track(productEvents.TABLE_ADDED, {}, { addRouteParams: true });`"/> \[\[sym-text:[codedoc\_count\_${totalDocCount}\_event\_sent](cc5d5e51-cdea-46fd-b74f-0e579c0ce512)\]\]
 
 <br/>
 
-|blabla                            |`&#91;data.repoTarget.branchOrTag&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:335:-1:-1:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;data.repoTarget.branchOrTag&#93;:&#32;&#123;&#32;numberOfDocuments:&#32;discoveredDocs.length&#32;&#125;,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`"/>|
-|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|```bash<br>code is awesome!<br>```|`📄 test.md`                                                                                                                                                                                                                                                                                                                                                                                                                           |
+<br/>
+
+|<br/>                             |blabla      |
+|----------------------------------|------------|
+|```bash<br>code is awesome!<br>```|`📄 test.md`|
 
 <br/>
 
@@ -65,7 +67,7 @@ Oh, almost forgot the snippet thing!
 
 <br/>
 
-`📄 fileWithALotOfContent.js` `&#91;&#96;doc_count_[[sym-text:[`doc\_count\_${totalDocCount}\_date`](f8366ed3-2915-43b7-8500-570f93f4010c)]]#123;totalDocCount&#125;_date&#96;&#93;`<swm-token data-swm-token=":fileWithALotOfContent.js:695:-1:-1:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;&#96;doc\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_count\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\[sym-text:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\[\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`doc\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_count\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_${totalDocCount}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_date\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\](f8366ed3-2915-43b7-8500-570f93f4010c)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\]#123;totalDocCount&#125;\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_date&#96;&#93;:&#32;FieldValue.serverTimestamp&#40;&#41;,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`"/>
+`📄 fileWithALotOfContent.js`
 
 <br/>
 
