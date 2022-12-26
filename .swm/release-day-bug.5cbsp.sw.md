@@ -7,6 +7,10 @@ file_blobs:
   fileWithALotOfContent.js: 0bfd1350a70bd9ae53bb896747a52bd91782f971
 ---
 
+`[[sym-text:codecounter_${collec`
+
+<br/>
+
 `[`counter_${collectionName}`]`<swm-token data-swm-token=":fileWithALotOfContent.js:829:-1:-1:`            snapshot.ref.parent.parent.update({ [`counter_${collectionName}`]: increment });`"/>
 
 <br/>
