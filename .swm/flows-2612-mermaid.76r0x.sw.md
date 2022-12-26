@@ -35,7 +35,7 @@ lk} --->
 
 <br/>
 
-<!--MERMAID {width:100}-->
+<!--MERMAID {width:25}-->
 ```mermaid
 sequenceDiagram
 Alice->>+John: Hennnnllo John, how are you?
