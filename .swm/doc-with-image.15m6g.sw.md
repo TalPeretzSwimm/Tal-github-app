@@ -9,7 +9,7 @@ app_version: 0.11.0
 
 <br/>
 
-<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimm-dev-content/o/repositories%2FZ2l0aHViJTNBJTNBdGVzdC1naXRodWItYXBwJTNBJTNBc3dpbW1pbw%3D%3D%2F866e7ede-c2c6-4a28-8c4c-52a3898cb59c.png?alt=media&token=689ec83e-f7be-4bea-8c28-9cc407e6f727" style="width:'100%'"/></div>
+<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimm-dev-content/o/repositories%2FZ2l0aHViJTNBJTNBdGVzdC1naXRodWItYXBwJTNBJTNBc3dpbW1pbw%3D%3D%2F866e7ede-c2c6-4a28-8c4c-52a3898cb59c.png?alt=media&token=689ec83e-f7be-4bea-8c28-9cc407e6f727" style="width:'50%'"/></div>
 
 <br/>
 
