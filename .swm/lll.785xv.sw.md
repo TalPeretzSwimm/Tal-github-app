@@ -34,7 +34,7 @@ something something `closedWonFirstDoc`<swm-token data-swm-token=":fileWithALotO
 
 `DEFAULT_WORKSPACE_USERS_LIMIT`<swm-token data-swm-token=":fileWithALotOfContent.js:52:2:2:`const DEFAULT_WORKSPACE_USERS_LIMIT = 15;`"/> `deletedUnitID`<swm-token data-swm-token=":fileWithALotOfContent.js:857:3:3:`        const deletedUnitID = snapshot.id;`"/>
 
-`addRepoToWorkspace`<swm-token data-swm-token=":fileWithALotOfContent.js:1553:4:4:`export const addRepoToWorkspace = functions.https.onCall(`"/>`f`<swm-token data-swm-token=":amnon/segev.py:3:2:2:`def f(foo):`"/>`__getattr__`<swm-token data-swm-token=":amnon/process-har.py:11:3:3:`    def __getattr__(self, attr):`"/>
+`addRepoToWorkspace`<swm-token data-swm-token=":fileWithALotOfContent.js:1553:4:4:`export const addRepoToWorkspace = functions.https.onCall(`"/>`f`<swm-token data-swm-token=":amnon/segev.py:3:2:2:`def f(foo):`"/>/>`__getattr__`<swm-token data-swm-token=":amnon/process-har.py:11:3:3:`    def __getattr__(self, attr):`"/>
 
 `📄 .idea` `tokenObj`<swm-token data-swm-token=":fileWithALotOfContent.js:1121:3:3:`                        const tokenObj = await response.json();`"/>`isRepoExistsInAnotherWorkspace`<swm-token data-swm-token=":fileWithALotOfContent.js:1575:3:3:`            const isRepoExistsInAnotherWorkspace = await db`"/>
 
@@ -65,8 +65,6 @@ something something `closedWonFirstDoc`<swm-token data-swm-token=":fileWithALotO
 <br/>
 
 \[`repoUpdateAllowedKeys`<swm-token data-swm-token=":fileWithALotOfContent.js:1527:3:3:`            const repoUpdateAllowedKeys = [&#39;integrations&#39;, &#39;modifier_name&#39;, &#39;notify&#39;];`"/>\]
-
-<br/>
 
 <br/>
 
