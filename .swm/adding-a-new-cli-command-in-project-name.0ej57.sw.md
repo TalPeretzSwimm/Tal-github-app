@@ -15,23 +15,11 @@ We use the {add library name with link} library to implement the generic CLI log
 
 <br/>
 
-
-
-<br/>
-
 Every command has to be {integrated / imported / exported} in {add a prerequisite location} in order to be recognized by the CLI framework.
 
 <br/>
 
-
-
-<br/>
-
 Every command has a corresponding {file / module / function} for implementation.
-
-<br/>
-
-
 
 <br/>
 
