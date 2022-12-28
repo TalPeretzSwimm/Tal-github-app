@@ -12,6 +12,8 @@ testing commiting drafts
 
 <!-- Steps - Do not remove this comment -->
 1. [drafted doc](drafted-doc.4x5wl.sw.md)
+2. [bbb](bbb.5ugiz.sw.md)
+3. [test for real](test-for-real.17ha0.sw.md)
 
 
 <br/>
