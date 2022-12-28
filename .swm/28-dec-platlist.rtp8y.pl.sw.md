@@ -16,6 +16,7 @@ testing commiting drafts
 3. [test for real](test-for-real.17ha0.sw.md)
 4. [ll](ll.i6e18.sw.md)
 5. [⚙️ How to Add a New User Configuration Value](how-to-add-a-new-user-configuration-value.l7pgh.sw.md)
+6. [doc](doc.nmvw1.sw.md)
 
 
 <br/>
