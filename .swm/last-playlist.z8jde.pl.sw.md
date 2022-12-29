@@ -16,6 +16,7 @@ dfdf
 3. [hello ### ](hello.1svxr.sw.md)
 4. [test playlist](test-playlist.nolz4.pl.sw.md)
 5. [28 DEC PLATLIST](28-dec-platlist.rtp8y.pl.sw.md)
+6. [delete playlist](delete-playlist.lqyuf.pl.sw.md)
 
 
 <br/>
