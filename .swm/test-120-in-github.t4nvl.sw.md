@@ -1,6 +1,6 @@
 ---
 id: t4nvl
-title: Test 1.2.0 in github
+title: Test 1.2.0 in GitHub
 file_version: 1.1.2
 app_version: 1.2.0
 ---
