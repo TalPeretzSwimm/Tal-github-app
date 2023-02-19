@@ -5,7 +5,7 @@ file_version: 1.1.2
 app_version: 1.2.0
 ---
 
-`file`<swm-token data-swm-token=":new:5:6:6:`In this new file`"/> uuu aaa bbb ccc
+`file`<swm-token data-swm-token=":new:5:6:6:`In this new file`"/> uuu aaa bbb ccc ddd
 
 <br/>
 
