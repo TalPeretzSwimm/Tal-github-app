@@ -28,10 +28,10 @@ My name is Elder Price
 <br/>
 
 I am collapsed
+
+now I'm not
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 fileWithALotOfContent.js
-<!-- collapsed -->
-
 ```javascript
 13     import { logEventCloud } from './eventLogger/logAndReportEvent';
 14     import * as commonUtils from './utils/common';
