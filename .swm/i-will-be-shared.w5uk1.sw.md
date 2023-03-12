@@ -2,7 +2,7 @@
 id: w5uk1
 title: I will be shared
 file_version: 1.1.2
-app_version: 1.3.0
+app_version: 1.4.0
 ---
 
 hello
@@ -13,31 +13,17 @@ My name is Elder Price
 
 `print`<swm-token data-swm-token=":c.py:5:1:1:`	print(&quot;This is the function foo&quot;)`"/>
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 c.py
-```python
-5      	print("This is the function foo")
-6      	if a > 6:
-7      		print("a is bigger")
-8      	else:
+### 📄 new
+```
+3      So many lines
+4      
+5      In this new file
+6      
+7      that was created
+8      
 ```
 
 <br/>
-
-<br/>
-
-<br/>
-
-I am collapsed
-
-now I'm not
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 fileWithALotOfContent.js
-```javascript
-13     import { logEventCloud } from './eventLogger/logAndReportEvent';
-14     import * as commonUtils from './utils/common';
-15     import { firestoreCollectionNames, resourcesErrors } from './utils/consts';
-16     import { checkIfRepoExistsAndUserInRepo } from './utils/check_helpers';
-```
 
 <br/>
 
