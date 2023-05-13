@@ -1,13 +1,11 @@
 ---
 id: g8464
-name: This is a test doc
-file_version: 1.0.2
-app_version: 0.7.6-1
-file_blobs:
-  testFile.md: 2c829dd94e910f7d48d32c259560c6a957444df8
+title: This is a test doc
+file_version: 1.1.2
+app_version: 1.8.0
 ---
 
-WoW
+WoW 11
 
 <br/>
 
@@ -15,15 +13,9 @@ This is snippet number one
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 testFile.md
 ```markdown
-⬜ 4      
-⬜ 5      and some more
-⬜ 6      
-🟩 7      we use them
-🟩 8      
-🟩 9      to test
-⬜ 10     
-⬜ 11     WOW
-⬜ 12     
+7      we use them
+8      
+9      to test
 ```
 
 <br/>
@@ -36,15 +28,10 @@ right?
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 testFile.md
 ```markdown
-⬜ 10     
-⬜ 11     WOW
-⬜ 12     
-🟩 13     removed the lines
-🟩 14     and wrote something new
-🟩 15     who
-🟩 16     clean file
-⬜ 17     
-⬜ 18     
+13     removed the lines
+14     and wrote something new
+15     who
+16     clean file
 ```
 
 <br/>
