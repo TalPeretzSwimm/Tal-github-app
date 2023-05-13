@@ -1,11 +1,8 @@
 ---
 id: 61lij
-name: Cross Repo Snippest
-file_version: 1.0.2
-app_version: 0.10.1-2
-cross_repo_file_blobs:
-  Z2l0aHViJTNBJTNBY29tbWFuZGVyJTNBJTNBc3dpbW1pbw==:
-    SECURITY.md: 87950c6d7f2c7a9fcb34f8ae02bf0f7d4e1097f7
+title: Cross Repo Snippest
+file_version: 1.1.2
+app_version: 1.8.0
 ---
 
 <br/>
@@ -17,13 +14,8 @@ this is snippet from other doc
 <!-- NOTE-swimm-repo ::Z2l0aHViJTNBJTNBY29tbWFuZGVyJTNBJTNBc3dpbW1pbw==:: -->
 ### 📄 SECURITY.md
 ```markdown
-⬜ 13     
-⬜ 14     ## Reporting a Vulnerability
-⬜ 15     
-🟩 16     To report a security vulnerability, please use the
-🟩 17     [Tidelift security contact](https://tidelift.com/security).
-🟩 18     Tidelift will coordinate the fix and disclosure.
-⬜ 19     
+17     [Tidelift security contact](https://tidelift.com/security).
+18     Tidelift will coordinate the fix and disclosure.
 ```
 
 <br/>
