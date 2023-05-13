@@ -1,22 +1,22 @@
 ---
 id: dtjo8
-name: TestSlack_2022-06-19
-file_version: 1.0.2
-app_version: 0.8.9-2
-file_blobs:
-  a.py: e3046eecae07d26804ee7a5fe672353111c04765
+title: TestSlack_2022-06-19
+file_version: 1.1.2
+app_version: 1.8.0
 ---
+
+<br/>
+
+doc
+
+<br/>
+
 
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 a.py
 ```python
-⬜ 1      # new a.py file
-⬜ 2      
-🟩 3      def main():
-🟩 4         print('wiP)'
-⬜ 5       
-⬜ 6      
-⬜ 7      
+3      def main():
+4         print('wiP)'
 ```
 
 <br/>
