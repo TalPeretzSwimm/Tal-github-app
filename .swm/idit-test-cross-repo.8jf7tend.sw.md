@@ -64,7 +64,7 @@ test
 
 <br/>
 
-Comment 3
+
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 <!-- NOTE-swimm-repo ::veezvxCuzpPrRLLXWD2E:: -->
 ### 📄 ide/extensions/vscode/src/logger.ts
