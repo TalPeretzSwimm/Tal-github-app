@@ -3,36 +3,15 @@ id: 8jf7tend
 title: Idit-test-cross-repo
 file_version: 1.1.2
 app_version: 1.8.0
+cross_repo_names:
+  swimm: veezvxCuzpPrRLLXWD2E
 ---
 
 This is a test for the cross-repo snippets.
 
-<br/>
+A line at the end of the doc.
 
-Adding a snippet from the swimm-staging repository
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-<!-- NOTE-swimm-repo ::veezvxCuzpPrRLLXWD2E:: -->
-### 📄 ide/extensions/vscode/src/logger.ts
-```typescript
-16       const logStream = pino.multistream([
-17         // Log to file
-18         pino.destination({
-19           dest: path.resolve(context.logUri.fsPath, 'swimm.log'),
-20           mkdir: true,
-21         }),
-22     
-23         // Log to vscode output panel
-24         {
-25           write(msg) {
-26             vscodeLoggingOutput.append(msg);
-27           },
-28         },
-29       ]);
-```
-
-<br/>
-
-A line in the end of the doc.
+`📄(swimm) ide/extensions/vscode/src/logger.ts`
 
 <br/>
 
