@@ -85,7 +85,7 @@ Adding this snippet to see a mixed cross with 2 different docs:
 
 <br/>
 
-
+snippet 4
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 <!-- NOTE-swimm-repo ::veezvxCuzpPrRLLXWD2E:: -->
 ### 📄 ide/extensions/vscode/src/logger.ts
@@ -105,6 +105,27 @@ Adding this snippet to see a mixed cross with 2 different docs:
 63               integrations = integrations.filter(
 64                 (integration) => !['OnUncaughtException', 'OnUnhandledRejection'].includes(integration.name)
 65               );
+```
+
+<br/>
+
+snippet 5
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+<!-- NOTE-swimm-repo ::Z2l0aHViJTNBJTNBZXJhbi10ZXN0LXJlbW92ZWQtaW4tcGxheWxpc3QlM0ElM0Fzd2ltbWlv:: -->
+### 📄 numbers.cpp
+```c++
+4      int exponent() 
+5      {
+6      
+7          while (exponent != 0) {
+8              result *= base;
+9              --exponent;
+10         }
+11     
+12         cout << result;
+13         
+14         return 0;
+15     }
 ```
 
 <br/>
