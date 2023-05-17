@@ -9,34 +9,6 @@ I'll add a few snippets
 
 <br/>
 
-snippet 1
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-<!-- NOTE-swimm-repo ::Z2l0aHViJTNBJTNBZXJhbi10ZXN0LXJlbW92ZWQtaW4tcGxheWxpc3QlM0ElM0Fzd2ltbWlv:: -->
-### 📄 numbers.cpp
-```c++
-4      int exponent() 
-5      {
-6          int exponent;
-7          float base, result = 1;
-8      
-9          cout << "Enter base and exponent respectively:  ";
-10         cin >> base >> exponent;
-11     
-12         cout << base << "^" << exponent << " = ";
-13     
-14         while (exponent != 0) {
-15             result *= base;
-16             --exponent;
-17         }
-18     
-19         cout << result;
-20         
-21         return 0;
-22     }
-```
-
-<br/>
-
 snippet 2
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 <!-- NOTE-swimm-repo ::Z2l0aHViJTNBJTNBZXJhbi10ZXN0LXJlbW92ZWQtaW4tcGxheWxpc3QlM0ElM0Fzd2ltbWlv:: -->
