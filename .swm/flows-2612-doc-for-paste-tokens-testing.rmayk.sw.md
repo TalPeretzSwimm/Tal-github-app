@@ -1,12 +1,8 @@
 ---
 id: rmayk
-name: Flows 26.12 | doc for paste-tokens testing
-file_version: 1.1.0
+title: Flows 26.12 | doc for paste-tokens testing
+file_version: 1.1.2
 app_version: 0.11.0
-file_blobs:
-  b.py: add40c61d35d122de6e719ab2ada5660caec7cb7
-  amnon/pylint-report.py: 3dcb2bce4da93da8d210abe89d8ac0d6e910b1b3
-  fileWithALotOfContent.js: 0bfd1350a70bd9ae53bb896747a52bd91782f971
 ---
 
 This is a testing doc that dana created which includes paths, snippets, links and smart tokens.
@@ -53,16 +49,14 @@ Oh, almost forgot the snippet thing!
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 b.py
 ```python
-🟩 1      
-🟩 2      # function in other file
-🟩 3      
-🟩 4      def foo(a):
-🟩 5      	print("This is the function foo")
-🟩 6      	if a > 6:
-🟩 7      		print("a is bigger")
-🟩 8      	else:
-🟩 9      		print("a is Smaller")
-🟩 10     
+2      # function in other file
+3      
+4      def foo12345(a):
+5      	print("This is the function foo")
+6      	if a > 6:
+7      		print("a is bigger")
+8      	else:
+9      		print("a is Smaller")
 ```
 
 <br/>

@@ -1,44 +1,31 @@
 ---
 id: nd5vi
-name: first last
-file_version: 1.0.2
+title: first last
+file_version: 1.1.2
 app_version: 0.9.7-0
-file_blobs:
-  b.py: add40c61d35d122de6e719ab2ada5660caec7cb7
 ---
-
-
 
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 b.py
 ```python
-🟩 1      
-🟩 2      # function in other file
-🟩 3      
-🟩 4      def foo(a):
-🟩 5      	print("This is the function foo")
-🟩 6      	if a > 6:
-⬜ 7      		print("a is bigger")
-⬜ 8      	else:
-⬜ 9      		print("a is Smaller")
+2      # function in other file
+3      
+4      def foo12345(a):
+5      	print("This is the function foo")
+6      	if a > 6:
 ```
 
 <br/>
 
-
-
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 b.py
 ```python
-⬜ 5      	print("This is the function foo")
-⬜ 6      	if a > 6:
-⬜ 7      		print("a is bigger")
-🟩 8      	else:
-🟩 9      		print("a is Smaller")
-🟩 10     
-🟩 11     
-🟩 12     
-🟩 13     
+8      	else:
+9      		print("a is Smaller")
+10     
+11     
+12     
+13     
 ```
 
 <br/>
