@@ -5,12 +5,12 @@ file_version: 1.1.2
 app_version: 1.9.0
 ---
 
-`SquareRoot123`<swm-token data-swm-token=":cross-repo test1.js:1:2:2:`function SquareRoot123() {`"/>
+`SquareRoot`<swm-token data-swm-token=":cross-repo test1.js:1:2:2:`function SquareRoot() {`"/>
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 cross-repo test1.js
 ```javascript
-1      function SquareRoot123() {
-2          const number1 = 2.25;
+1      function SquareRoot() {
+2          const number100 = 2.25;
 3          const number2 = -4;
 4          const number3 = 'hello';
 ```
