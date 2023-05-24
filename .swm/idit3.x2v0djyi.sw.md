@@ -9,7 +9,7 @@ test3
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 cross-repo test1.js
 ```javascript
-15     function RandomNumber() {
+15     function RandomNumber123() {
 16         // generating  a random number
 17         const a = Math.random();
 18         console.log(a);
