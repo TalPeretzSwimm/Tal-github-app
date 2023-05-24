@@ -1,4 +1,4 @@
-function SquareRoot123() {
+function SquareRoot() {
     const number1 = 2.25;
     const number2 = -4;
     const number3 = 'hello';
