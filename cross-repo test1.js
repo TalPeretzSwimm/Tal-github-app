@@ -1,5 +1,5 @@
 function SquareRoot() {
-    const number1 = 2.25;
+    const number1147 = 2.25;
     const number2 = -4;
     const number3 = 'hello';
 
