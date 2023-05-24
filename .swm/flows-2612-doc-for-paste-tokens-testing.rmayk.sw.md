@@ -51,7 +51,7 @@ Oh, almost forgot the snippet thing!
 ```python
 2      # function in other file
 3      
-4      def foo12345(a):
+4      def foo(a):
 5      	print("This is the function foo")
 6      	if a > 6:
 7      		print("a is bigger")
