@@ -11,3 +11,9 @@ function SquareRoot() {
     console.log(`The square root of ${number2} is ${result2}`);
     console.log(`The square root of ${number3} is ${result3}`);
 }
+
+function randomNumber() {
+    // generating  a random number
+    const a = Math.random();
+    console.log(a);
+}
