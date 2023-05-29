@@ -1,6 +1,6 @@
 # new a.py file
 
-def againbad():
+def break12345():
    print('wiP)'
  
 
