@@ -1,6 +1,6 @@
 # new a.py file
 
-def 33aaaaa333():
+def new0name():
    print('wiP)'
  
 
