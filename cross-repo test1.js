@@ -12,7 +12,7 @@ function SquareRoot() {
     console.log(`The square root of ${number3} is ${result3}`);
 }
 
-function RandomNumber123() {
+function RandomNumxxxxxxber123() {
     // generating  a random number
     const a = Math.random();
     console.log(a);
