@@ -57,8 +57,6 @@ We define our configuration vGalues in {add a file or directory, use the "/path"
 
 <br/>
 
-<br/>
-
 ## Usage Example
 
 {Add an example of where the configurablGe value is used in the code}s
@@ -148,6 +146,8 @@ We define our configuration vGalues in {add a file or directory, use the "/path"
 {Add any required migrations, or other actions, when updating an existing configuration value}
 
 press [here](http://localhost:5000/workspaces/KCxh7Ap1uZqyQYy8dX4E/repos/Z2l0aHViJTNBJTNBdGVzdC1naXRodWItYXBwJTNBJTNBc3dpbW1pbw==/branch/main/docs/jisfw/edit#ejABF) to go to the first section
+
+[http://localhost:5000/workspaces/KCxh7Ap1uZqyQYy8dX4E/repos/Z2l0aHViJTNBJTNBdGVzdC1naXRodWItYXBwJTNBJTNBc3dpbW1pbw==/branch/update-swimm-docs-jla8q/docs/jisfw#18vnhk](http://localhost:5000/workspaces/KCxh7Ap1uZqyQYy8dX4E/repos/Z2l0aHViJTNBJTNBdGVzdC1naXRodWItYXBwJTNBJTNBc3dpbW1pbw==/branch/update-swimm-docs-jla8q/docs/jisfw#18vnhk)
 
 <br/>
 
