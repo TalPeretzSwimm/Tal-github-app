@@ -1,6 +1,6 @@
 # new a.py file
 
-def some_function1():
+def some_function():
    print('wiP)'
  
 
