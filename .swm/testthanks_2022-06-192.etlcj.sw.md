@@ -1,35 +1,20 @@
 ---
 id: etlcj
-name: TestThanks_2022-06-19#2
-file_version: 1.1.0
-app_version: 0.11.0
-file_blobs:
-  file1.txt: 76dda9aea9b06acc769f6413cce50f2c0e2e98b5
-  amnon/process-har.py: 8c8ac614823d4dbdaad204ef0ceebb1e984bb9c9
-  fileWithALotOfContent.js: 0bfd1350a70bd9ae53bb896747a52bd91782f971
+title: TestThanks_2022-06-19#2
+file_version: 1.1.3
+app_version: 1.13.10
 ---
 
 \`khghgjkhנצג
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 file1.txt
 ```text
-🟩 1      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet luctus venenatis lectus magna fringilla. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Facilisis volutpat est velit egestas dui id. Blandit massa enim nec dui nunc mattis enim. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Erat imperdiet sed euismod nisi porta lorem. Nibh nisl condimentum id venenatis a. Convallis tellus id interdum velit laoreet id donec. Donec ultrices tincidunt arcu non. Tellus at urna condimentum mattis pellentesque. In aliquam sem fringilla ut morbi. Fermentum leo vel orci porta non. Libero volutpat sed cras ornare arcu dui. Amet consectetur adipiscing elit duis.
-🟩 2      
-🟩 3      Nunc eget lorem dolor sed viverra ipsum nunc aliquet. Sed velit dignissim sodales ut eu sem integer vitae. Massa placerat duis ultricies lacus sed turpis tincidunt. Pharetra magna ac placerat vestibulum. Quam viverra orci sagittis eu volutpat odio facilisis. Nibh nisl condimentum id venenatis. Quisque id diam vel quam elementum pulvinar. Cras semper auctor neque vitae tempus. Cras ornare arcu dui vivamus arcu. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Sem integer vitae justo eget. Tristique et egestas quis ipsum suspendisse. Tristique senectus et netus et malesuada fames ac turpis egestas. Arcu felis bibendum ut tristique et egestas. Ac auctor augue mauris augue. Odio eu feugiat pretium nibh ipsum consequat nisl vel. Dignissim diam quis enim lobortis scelerisque fermentum dui.
-⬜ 4      
-⬜ 5      this is Modified
-⬜ 6      
+1      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet luctus venenatis lectus magna fringilla. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Facilisis volutpat est velit egestas dui id. Blandit massa enim nec dui nunc mattis enim. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Erat imperdiet sed euismod nisi porta lorem. Nibh nisl condimentum id venenatis a. Convallis tellus id interdum velit laoreet id donec. Donec ultrices tincidunt arcu non. Tellus at urna condimentum mattis pellentesque. In aliquam sem fringilla ut morbi. Fermentum leo vel orci porta non. Libero volutpat sed cras ornare arcu dui. Amet consectetur adipiscing elit duis.
+2      
+3      Nunc eget lorem dolor sed viverra ipsum nunc aliquet. Sed velit dignissim sodales ut eu sem integer vitae. Massa placerat duis ultricies lacus sed turpis tincidunt. Pharetra magna ac placerat vestibulum. Quam viverra orci sagittis eu volutpat odio facilisis. Nibh nisl condimentum id venenatis. Quisque id diam vel quam elementum pulvinar. Cras semper auctor neque vitae tempus. Cras ornare arcu dui vivamus arcu. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Sem integer vitae justo eget. Tristique et egestas quis ipsum suspendisse. Tristique senectus et netus et malesuada fames ac turpis egestas. Arcu felis bibendum ut tristique et egestas. Ac auctor augue mauris augue. Odio eu feugiat pretium nibh ipsum consequat nisl vel. Dignissim diam quis enim lobortis scelerisque fermentum dui.
 ```
 
 <br/>
-
-`fgGreen`<swm-token data-swm-token=":amnon/process-har.py:63:1:1:`&#32;&#32;&#32;&#32;fgGreen&#32;=&#32;&quot;\033&#91;32m&quot;`"/>
-
-`numberOfDocuments`<swm-token data-swm-token=":fileWithALotOfContent.js:257:12:12:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91;data.repoTarget.branchOrTag&#93;:&#32;&#123;&#32;numberOfDocuments:&#32;discoveredDocs.length&#32;&#125;,`"/>
-
-`total_doc_count`<swm-token data-swm-token=":fileWithALotOfContent.js:724:6:6:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;.update&#40;&#123;&#32;total_doc_count:&#32;admin.firestore.FieldValue.increment&#40;1&#41;&#32;&#125;&#41;;`"/>
-
-`docData`<swm-token data-swm-token=":fileWithALotOfContent.js:747:3:3:`&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;const&#32;docData&#32;=&#32;&#40;await&#32;docRef.get&#40;&#41;&#41;.data&#40;&#41;;`"/>
 
 \`
 

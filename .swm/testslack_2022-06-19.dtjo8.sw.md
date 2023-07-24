@@ -1,7 +1,7 @@
 ---
 id: dtjo8
 title: TestSlack_2022-06-19
-file_version: 1.1.2
+file_version: 1.1.3
 app_version: 1.8.0
 ---
 
@@ -11,11 +11,10 @@ doc
 
 <br/>
 
-
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 a.py
 ```python
-3      def main():
+3      def some_function():
 4         print('wiP)'
 ```
 

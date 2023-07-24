@@ -11,6 +11,7 @@ from pathlib import Path
 
 IGNORED_DIRS = (
     '__pycache__',
+    '__pycachet__',
 )
 
 

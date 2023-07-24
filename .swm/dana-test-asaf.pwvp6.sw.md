@@ -1,10 +1,8 @@
 ---
 id: pwvp6
-name: dana test asaf
-file_version: 1.1.0
+title: dana test asaf
+file_version: 1.1.3
 app_version: 0.11.0
-file_blobs:
-  a.py: e3046eecae07d26804ee7a5fe672353111c04765
 ---
 
 draft
@@ -21,13 +19,9 @@ hey my name is dana
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 a.py
 ```python
-⬜ 1      # new a.py file
-⬜ 2      
-🟩 3      def main():
-🟩 4         print('wiP)'
-🟩 5       
-🟩 6      
-⬜ 7      
+3      def some_function():
+4         print('wiP)'
+5       
 ```
 
 <br/>
