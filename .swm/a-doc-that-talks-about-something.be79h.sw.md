@@ -26,13 +26,13 @@ app_version: 1.3.0
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 amnon/process-har.py
 ```python
-37         prev_url = None
-38         for entry, date in generator:
-39             if args.separator and entry.request.url != prev_url:
-40                 if prev_url is not None:
-41                     print('---')
-42                 prev_url = entry.request.url
-43             display_url = entry.request.url.replace('%2F', '/').replace('?', ' ? ').replace('&', ' & ')
+37         prev
+38         for entry
+39             if args
+40                 if prev
+41                     print('-
+42                 prev_url = en
+43             display_url
 44             print(date.strftime(time_format), f'{entry.request.method:7}', display_url)
 ```
 
