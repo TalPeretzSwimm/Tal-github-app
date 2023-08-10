@@ -26,13 +26,6 @@ app_version: 1.3.0
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 amnon/process-har.py
 ```python
-30     def run(args):
-31         time_format = '%H:%M:%S.%f' if args.microseconds else '%H:%M:%S'
-32         with Path(args.harfile).expanduser().open() as f:
-33             data = json.load(f, object_pairs_hook=NamedDict)
-34         generator = ((entry, datetime.fromisoformat(entry.startedDateTime)) for entry in data.log.entries)
-35         if args.by_url:
-36             generator = sorted(generator, key=lambda item: (item[0].request.url, item[1]))
 37         prev_url = None
 38         for entry, date in generator:
 39             if args.separator and entry.request.url != prev_url:
@@ -49,8 +42,6 @@ app_version: 1.3.0
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 amnon/process-har.py
 ```python
-57         fgRed = "\033[31m"
-58         fgBrightRed = "\033[31;1m"
 59         bgRed = "\033[41m"
 60         bgBrightRed = "\033[41;1m"
 ```
