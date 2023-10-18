@@ -9,12 +9,13 @@ this is doc to be shared
 
 <br/>
 
-this is snippet to be shared
+this is snippet to be shared def
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 dummy.py
-```python
-1      aaaa
-2      aaa
+### 📄 code-for-shared-1.txt
+```text
+4      ddd
+5      eee
+6      fff
 ```
 
 <br/>
