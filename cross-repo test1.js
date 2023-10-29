@@ -15,7 +15,7 @@ function SquareRoot() {
 function RandomNumxxxxxxber123() {
     // generating  a random number
     const a = Math.random();
-    console.log(a);
+    console.log(a,'test');
 }
 
 function PrimeNumbers() {
