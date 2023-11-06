@@ -12,7 +12,7 @@ test6
 15     function RandomNumxxxxxxber123() {
 16         // generating  a random number
 17         const a = Math.random();
-18         console.log(a);
+18         console.log(a,'test');
 19     }
 ```
 
