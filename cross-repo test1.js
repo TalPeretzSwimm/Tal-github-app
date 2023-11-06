@@ -1,6 +1,6 @@
 function SquareRoot() {
     const number1 = 2.25;
-    const number2 = -4;
+    const number2 = -432;
     const number3 = 'hello';
 
     const result1 = Math.sqrt(number1);
